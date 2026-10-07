@@ -1,5 +1,19 @@
-This repo is where I'm building out my C++ fundamentals from the ground up. Instead of just jumping into complex apps, I'm using this space to document my understanding of how C++ handles memory, data types, and system output. It’s a key part of my programming portfolio that shows I can work with statically typed languages where every byte and variable type actually matters.
+# C++ Programming Logic & Fundamentals
 
-In this project, I’m working directly with the C++ type system to see how different data structures behave. I’ve implemented various primitives, ranging from standard integers and booleans for logic to doubles for high precision math. I've also focused on using the C++ Standard Library correctly specifically <iostream> for console output and <string> for handling text while making sure my namespace resolution (std::) follows clean coding standards.
+This repository documents my C++ learning journey from basic syntax to object-oriented programming and competitive logic.
 
-I've set this up to be compiled using G++, keeping the source code in main.cpp and using a .gitignore to keep the repo clean of any .exe files or build clutter. This project is maintained by Marquis Verino as I continue to expand my stack across Python, C#, and now C++.
+## Repository Roadmap
+
+### 1. Basics
+- `01_basics/01_print_and_comments.cpp`: Console output, single/multi-line comments, and basic variable arithmetic.
+- `01_basics/02_variables_and_types.cpp`: Primitive data types (`int`, `double`, `char`, `bool`) and `std::string`.
+
+---
+
+## Compilation
+
+To compile any script using `g++`:
+
+```bash
+g++ 01_basics/01_print_and_comments.cpp -o print_demo
+./print_demo
